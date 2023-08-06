@@ -4,6 +4,7 @@ body {
 }
 
 hr {
+  width: 80%;
   width: 500px;
 }
 
@@ -12,16 +13,17 @@ hr {
 }
 
 #board {
-  width: 450px;
+  width: 80%;
   height: 450px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 2px;
 }
 
 .tile {
-  width: 48px;
-  height: 48px;
+  width: 100%;
+  height: 100%;
   border: 1px solid lightgray;
   font-size: 20px;
   font-weight: bold;
@@ -31,16 +33,17 @@ hr {
 }
 
 #digits {
-  width: 450px;
-  height: 50px;
+  width: 80%;
+  height: 80px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 2px;
 }
 
 .number {
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   border: 1px solid black;
   margin: 2px;
   font-size: 20px;
@@ -64,4 +67,17 @@ hr {
 
 .vertical-line {
   border-right: 1px solid black;
+}
+
+@media screen and (max-width: 800px) {
+  #board, #digits, hr {
+    width: 70%; 
+    max-width: 700px;;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tile, .number {
+    font-size: 20px; 
+  }
 }
