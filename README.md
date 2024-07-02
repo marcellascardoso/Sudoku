@@ -21,7 +21,7 @@ Bem-vindo ao jogo de Sudoku! Este é um jogo de Sudoku simples e interativo, imp
 
 Confira a aparência do tabuleiro inicial do jogo:
 
-<img src="sudoku.jpg" alt="Tabuleiro de Sudoku" class="responsive-image">
+<img src="sudoku.jpg" alt="Tabuleiro de Sudoku" class="responsive-image" width="500px" height="500px">
 
 ## Tecnologias Utilizadas
 
