@@ -1,49 +1,50 @@
 # Sudoku
 
-Bem-vindo ao jogo de Sudoku! Este é um jogo de Sudoku simples e interativo, implementado em JavaScript, HTML e CSS. Teste suas habilidades de resolução de quebra-cabeças e divirta-se!
+Welcome to the Sudoku game! This is a simple and interactive Sudoku game implemented in JavaScript, HTML, and CSS. Test your puzzle-solving skills and have fun!
 
-## Funcionalidades
+## Features
 
-- **Interatividade Completa**: Selecione e insira números diretamente no tabuleiro.
-- **Verificação de Erros**: Notificações de erro ao inserir números incorretos.
-- **Design Responsivo**: Jogue em qualquer dispositivo, seja desktop ou móvel.
-- **Reinício Rápido**: Reinicie o jogo facilmente para jogar novamente.
+- **Full Interactivity**: Select and insert numbers directly on the board.
+- **Error Checking**: Error notifications when incorrect numbers are entered.
+- **Responsive Design**: Play on any device, be it desktop or mobile.
+- **Quick Restart**: Easily restart the game to play again.
 
-## Como Jogar
+## How to Play
 
-1. **Selecione um Número**: Clique em um número na parte inferior do tabuleiro para selecioná-lo.
-2. **Preencha uma Célula**: Clique em uma célula vazia no tabuleiro para preenchê-la com o número selecionado.
-3. **Complete o Sudoku**: Preencha todas as células vazias do tabuleiro com os números corretos para completar o Sudoku.
-4. **Verificação de Erros**: Erros serão sinalizados na parte superior do tabuleiro.
-5. **Reiniciar o Jogo**: Ao preencher todos os espaços vazios corretamente, você pode reiniciar a página para jogar novamente.
+1. **Select a Number**: Click on a number at the bottom of the board to select it.
+2. **Fill a Cell**: Click on an empty cell on the board to fill it with the selected number.
+3. **Complete the Sudoku**: Fill all empty cells on the board with the correct numbers to complete the Sudoku.
+4. **Error Checking**: Errors will be indicated at the top of the board.
+5. **Restart the Game**: Once all empty spaces are correctly filled, you can refresh the page to play again.
 
-## Demonstração
+## Demo
 
-Confira a aparência do tabuleiro inicial do jogo:
+Check out the initial game board:
 
-<img src="sudoku.jpg" alt="Tabuleiro de Sudoku" class="responsive-image" width="500px" height="500px">
+<img src="sudoku.jpg" alt="Sudoku Board" width="500" height="500">
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **JavaScript**: Lógica do jogo e interatividade.
-- **HTML**: Estrutura do tabuleiro e elementos do jogo.
-- **CSS**: Estilização e design responsivo.
+- **JavaScript**: Game logic and interactivity.
+- **HTML**: Structure of the board and game elements.
+- **CSS**: Styling and responsive design.
 
-## Contribuindo
+## Contributing
 
-Contribuições são bem-vindas! Se você tiver sugestões, encontrar bugs ou quiser adicionar novas funcionalidades, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome! If you have suggestions, find bugs, or want to add new features, feel free to open an issue or submit a pull request.
 
-1. Faça um fork do repositório.
-2. Crie um branch para sua feature (`git checkout -b minha-feature`).
-3. Commit suas mudanças (`git commit -m 'Adiciona minha feature'`).
-4. Envie para o branch (`git push origin minha-feature`).
-5. Abra um Pull Request.
+1. Fork the repository.
+2. Create a branch for your feature (`git checkout -b my-feature`).
+3. Commit your changes (`git commit -m 'Add my feature'`).
+4. Push to the branch (`git push origin my-feature`).
+5. Open a Pull Request.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-## Contato
+## Contact
 
-Para mais informações ou dúvidas, entre em contato:
-- **E-mail**: marcellasantoscardoso@gmail.com
+For more information or questions, contact:
+- **Email**: marcellasantoscardoso@gmail.com
+
